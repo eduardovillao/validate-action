@@ -19,3 +19,5 @@ jobs:
 
       - name: Run WP Self-Host Update JSON Generator
         uses: eduardovillao/wp-self-host-json-generator@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
