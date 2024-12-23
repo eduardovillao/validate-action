@@ -8,7 +8,7 @@
   "requires": "5.3",
   "tested": "5.9",
   "requires_php": "7.0",
-  "last_updated": "2024-12-23T05:12:02.155Z",
+  "last_updated": "2024-12-23T05:13:53.432Z",
   "sections": {
     "description": "With this plugins you can creates a custom message for redirect your customer to WhatsApp after checkout with all order data.\n\nAlso, you can add a button in product page, cart page or use the Elementor Widget for add a button in any page and select what product get with the click.",
     "installation": "1. Upload the plugin files to the WordPress\n2. Activate the plugin in WordPress\n3. Go to \"Order on WhatsApp for WooCommerce\" in your WordPress admin panel\n4. Enter your phone number and other informations",
