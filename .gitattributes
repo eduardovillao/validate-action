@@ -5,15 +5,15 @@ wp-dist/ export-ignore
 .* export-ignore
 
 # Ignorar pastas do Git
-.git/** export-ignore
+.git/ export-ignore
 
 # Ignorar arquivos de configuração locais
 *.env export-ignore
 *.log export-ignore
 
 # Ignorar ferramentas de desenvolvimento e configurações locais
-.vscode/** export-ignore
-.idea/** export-ignore
+.vscode/ export-ignore
+.idea/ export-ignore
 *.iml export-ignore
 
 # Ignorar arquivos de documentação desnecessários no release
@@ -25,10 +25,10 @@ tests/ export-ignore
 *.test.js export-ignore
 
 # Ignorar ferramentas de CI
-.github/** export-ignore
+.github/ export-ignore
 .gitlab-ci.yml export-ignore
 
 # Ignorar configurações de build
-node_modules/** export-ignore
+node_modules/ export-ignore
 package-lock.json export-ignore
 yarn.lock export-ignore
