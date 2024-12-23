@@ -20,7 +20,7 @@ wp-dist/ export-ignore
 *.md export-ignore
 
 # Ignorar arquivos de teste
-tests/** export-ignore
+tests/ export-ignore
 *.spec.js export-ignore
 *.test.js export-ignore
 
