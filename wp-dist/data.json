@@ -1,0 +1,58 @@
+{
+  "name": "Order on WhatsApp for WooCommerce",
+  "slug": "2.8.1",
+  "author": "evcode",
+  "author_profile": "https://eduardovillao.me/",
+  "version": "2.8.1",
+  "download_url": "https://github.com/<username>/<repo>/releases/latest/download/plugin.zip",
+  "requires": "5.3",
+  "tested": "5.9",
+  "requires_php": "7.0",
+  "last_updated": "2024-12-23T04:35:40.961Z",
+  "sections": {
+    "description": "With this plugins you can creates a custom message for redirect your customer to WhatsApp after checkout with all order data.\n\nAlso, you can add a button in product page, cart page or use the Elementor Widget for add a button in any page and select what product get with the click.",
+    "installation": "1. Upload the plugin files to the WordPress\n2. Activate the plugin in WordPress\n3. Go to \"Order on WhatsApp for WooCommerce\" in your WordPress admin panel\n4. Enter your phone number and other informations",
+    "changelog": [
+      {
+        "version": "2.8.1",
+        "changes": [
+          "Added: support to free version.",
+          "Changed: replace duplicate codes from free version."
+        ]
+      },
+      {
+        "version": "2.8",
+        "changes": [
+          "Added: compatibility with WordPress 5.9.",
+          "Changed: code improvements.",
+          "Fixed: format price from woocommerce settings."
+        ]
+      },
+      {
+        "version": "2.7.5",
+        "changes": [
+          "New: support for translations.",
+          "New: added pt-br translation.",
+          "Tweak: improve code for admin options.",
+          "Tweak: improve order for admin options."
+        ]
+      },
+      {
+        "version": "2.7.4",
+        "changes": [
+          "New: Token for get order meta data.",
+          "Tweak: WordPress 5.8 compatibility.",
+          "Tweak: Code improvements."
+        ]
+      },
+      {
+        "version": "2.7.2",
+        "changes": [
+          "New: Elementor Widget. Add the button on any pages and select which product get info.",
+          "New: Token for custom fields. Add value from custom fields in your custom message.",
+          "Fix: Encode broke currency symbol and emojis."
+        ]
+      }
+    ]
+  }
+}
