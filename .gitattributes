@@ -1,0 +1,34 @@
+# Ignorar o folder wp-dist e tudo dentro dele
+wp-dist/** export-ignore
+
+# Ignorar pastas e arquivos ocultos (começam com .)
+.* export-ignore
+
+# Ignorar pastas do Git
+.git/** export-ignore
+
+# Ignorar arquivos de configuração locais
+*.env export-ignore
+*.log export-ignore
+
+# Ignorar ferramentas de desenvolvimento e configurações locais
+.vscode/** export-ignore
+.idea/** export-ignore
+*.iml export-ignore
+
+# Ignorar arquivos de documentação desnecessários no release
+*.md export-ignore
+
+# Ignorar arquivos de teste
+tests/** export-ignore
+*.spec.js export-ignore
+*.test.js export-ignore
+
+# Ignorar ferramentas de CI
+.github/** export-ignore
+.gitlab-ci.yml export-ignore
+
+# Ignorar configurações de build
+node_modules/** export-ignore
+package-lock.json export-ignore
+yarn.lock export-ignore
