@@ -1,8 +1,8 @@
 name: Generate WP Self-Host JSON
 on:
   push:
-    tags:
-      - '*'
+    branches:
+      - main
 jobs:
   generate-json-and-release:
     runs-on: ubuntu-latest
