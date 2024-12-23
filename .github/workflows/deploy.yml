@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - main
+
+permissions:
+  contents: write
+
 jobs:
   generate-json-and-release:
     runs-on: ubuntu-latest
