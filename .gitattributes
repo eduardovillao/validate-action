@@ -1,5 +1,5 @@
 # Ignorar o folder wp-dist e tudo dentro dele
-wp-dist/** export-ignore
+wp-dist/ export-ignore
 
 # Ignorar pastas e arquivos ocultos (começam com .)
 .* export-ignore
@@ -20,7 +20,6 @@ wp-dist/** export-ignore
 *.md export-ignore
 
 # Ignorar arquivos de teste
-tests/** export-ignore
 *.spec.js export-ignore
 *.test.js export-ignore
 
